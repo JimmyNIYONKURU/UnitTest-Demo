@@ -1,3 +1,11 @@
+package com.udacity.cart.service;
+import com.udacity.cart.model.CartItem;
+import com.udacity.cart.model.CartTotals;
+import org.junit.jupiter.api.Test;
+import java.util.List;
+import static org.junit.jupiter.api.Assertions.assertAll;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class TotalsCalculatorTest
 {
 
